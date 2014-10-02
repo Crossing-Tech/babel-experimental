@@ -28,6 +28,7 @@
     <name>Babel :: Experimental :: Main</name>
 
     <modules>
+        <module>babel-parent</module>
         <module>babel-camel/babel-camel-lambda</module>
     </modules>
 

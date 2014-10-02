@@ -20,31 +20,25 @@
 
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>io.xtech.babel.experimental</groupId>
+        <artifactId>babel-parent</artifactId>
+        <version>0.6.0-SNAPSHOT</version>
+        <relativePath>../../babel-parent/pom.xml</relativePath>
+    </parent>
+
     <groupId>io.xtech.babel.experimental</groupId>
     <artifactId>babel-camel-lambda</artifactId>
     <version>0.6.0-SNAPSHOT</version>
 
     <name>Babel :: Experimental :: Camel :: Lambda</name>
 
-    <properties>
-        <babel.camel.version>0.6.0</babel.camel.version>
-
-        <!-- Logging -->
-        <log4j.version>1.2.16</log4j.version>
-        <slf4j.version>1.7.3</slf4j.version>
-
-        <!-- Test dependencies -->
-        <junit.version>4.11</junit.version>
-    </properties>
-
     <dependencies>
-
-
 
         <dependency>
             <groupId>io.xtech.babel</groupId>
             <artifactId>babel-camel-core_2.10</artifactId>
-            <version>${babel.camel.version}</version>
+            <version>${babel.version}</version>
         </dependency>
 
         <dependency>
