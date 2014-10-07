@@ -3,6 +3,10 @@ Babel experimental
 
 This project contains future improvement of the [Babel]( https://github.com/Crossing-Tech/babel "Babel Sources") project:
 
+* Babel Camel Lambda : a java 8 DSL for Apache Camel
+  
+Those projects are still into prototyping or into test phase. 
+
 If you have any feedback or comment, please post it on the Babel google group: https://groups.google.com/forum/#!forum/babel-user 
 
 Babel Camel Lambda
@@ -10,11 +14,11 @@ Babel Camel Lambda
 
 Babel Camel Lambda is a DSL for Apache Camel provided for Java users
 
-In order to use the Babel DSL for Camel with Java, add thw following to your maven dependencies:
+In order to use the Babel DSL for Camel with Java, add the following to your maven dependencies:
 ```xml
 <dependency>
     <groupId>io.xtech.babel</groupId>
-    <artifactId>babel-experimental-parent</artifactId>
+    <artifactId>babel-camel-lambda</artifactId>
     <version>BABEL_VERSION</version>
 </dependency>
 ```
