@@ -1,6 +1,11 @@
 Babel experimental
 =================
 
+### Build Status ###
+
+Master: [![Build Status](https://travis-ci.org/Crossing-Tech/babel-experimental.svg?branch=master)](https://travis-ci.org/Crossing-Tech/babel-experimental) [![Coverage Status](https://coveralls.io/repos/Crossing-Tech/babel-experimental/badge.png)](https://coveralls.io/r/Crossing-Tech/babel-experimental)
+
+
 This project contains future improvement of the [Babel]( https://github.com/Crossing-Tech/babel "Babel Sources") project:
 
 * Babel Camel Lambda : a java 8 DSL for Apache Camel
@@ -11,11 +16,6 @@ If you have any feedback or comment, please post it on the Babel google group: h
 
 Babel Camel Lambda
 ------------------
-
-### Build Status ###
-
-Master: [![Build Status](https://travis-ci.org/crossing-tech/babel-experimental.svg?branch=master)](https://travis-ci.org/crossing-tech/babel) [![Coverage Status](https://coveralls.io/repos/crossing-tech/babel-experimental/badge.png)](https://coveralls.io/r/crossing-tech/babel-experimental)
-
 
 Babel Camel Lambda is a DSL for Apache Camel provided for Java users
 
